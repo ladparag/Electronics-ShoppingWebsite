@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Aug 6, 2016 6:13:11 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.electronicshop.pojo.Product" table="products">
+        <id name="catId" type="int">
+            <column name="catId" />
+            <generator class="assigned" />
+        </id>
+        <property name="itemId" type="int">
+            <column name="itemId" />
+        </property>
+        <property name="itemName" type="java.lang.String">
+            <column name="itemName" />
+        </property>
+        <property name="catName" type="java.lang.String">
+            <column name="catName" />
+        </property>
+        <property name="description" type="java.lang.String">
+            <column name="description" />
+        </property>
+        <property name="price" type="float">
+            <column name="price" />
+        </property>
+        <property name="stocks" type="int">
+            <column name="stocks" />
+        </property>
+        <property name="image" type="java.lang.String">
+            <column name="image" />
+        </property>
+        <!-- <property name="total" type="float">
+            <column name="total" />
+        </property>
+        <property name="buyQuantity" type="int">
+            <column name="BUYQUANTITY" />
+        </property> -->
+    </class>
+</hibernate-mapping>
