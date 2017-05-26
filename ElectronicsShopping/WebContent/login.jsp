@@ -123,7 +123,7 @@ function validateForm(event)
      <!--  <div class="center_title_bar">Latest Products</div> -->
     <blink><h2><center><mark style="background-color:#006666;">Please Login </mark></center></h2></blink>
      
-      
+      <!-- parag lad.............. -->
       
     </div>
     <!-- end of center content -->
